@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE ]> <html class="no-js IE"> <![endif]-->
+<!--[if IE ]> <html class="no-js IE"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/customStyles.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="header mobileYes center">
+                <a href="index.html"><img src="images/agilvaxHeaderLogo.png" alt="Agilvax" title="Agilvax" width="135"></a>
+            </div>
+
+            <div class="navigation">
+                    <div class="mobileNavToggle">Menu</div>
+                    <div class="navigationBar">
+                        <ul class="nav navLeft">
+                        </ul><!-- /nav -->
+                        <ul class="nav navRight">
+                        </ul><!-- /nav -->
+                    </div><!-- /navigationBar -->
+            </div><!-- /navigation -->
+        </div><!-- #header -->
+
+        <div class="pageTitle">
+            <div class="containerNarrow">
+                <h1 class="slideInBT">THE AGILVAX VLP PLATFORM</h1>
+            </div>
+        </div><!-- /pageTitle -->
+        <div class="mainContent">
+            <div class="container techAdvCircles">
+                <div class="connector adv3"></div><!-- /connector -->
+                <div class="oneThird breakColMobile adv1">
+                    <div class="circle">
+                        <img src="images/techAdv1.png" title="VLP Library with Random Peptides" alt="VLP Library with Random Peptides">
+                    </div>
+                    <p class="tpDescription">VLP Library with Random Peptides. 100,000s of Unique VLPs</p>
+                </div><!-- /oneThird breakColMobile -->
+                <div class="oneThird breakColMobile adv3">
+                    <div class="circle">
+                        <img src="images/techAdv2.png" title="Wash Unbound VLPs" alt="Wash Unbound VLPs">
+                    </div>
+                    <p class="tpDescription">Wash Unbound VLPs</p>
+                </div><!-- /oneThird breakColMobile -->
+                <div class="oneThird breakColMobile gridLast vlpCandidateWrapper adv2">
+                    <div class="circle">
+                        <img src="images/techAdv3.png" title="VLP Candidate" alt="VLP Candidate">
+                    </div>
+                    <p class="tpDescription">VLP Vaccine Candidate</p>
+                </div><!-- /oneThird breakColMobile gridLast -->
+                <div class="selectionCircle adv2"></div>
+                <div class="selectionConnector adv2"><span class="selectionText">Selection</span></div>
+            </div><!-- /container -->
+            <div class="containerNarrow">
+                <hr class="halfLightBlue">
+                <h2>Immunotherapy and Vaccine Selection</h2>
+                <p>The Agilvax system displays random peptides at high density on the surface of VLPs. Each individual VLP encapsulates the nucleic acid that encodes the random peptide displayed on its surface. This enables recovery and amplification of selected sequences from complex libraries. Therefore, random-sequence or antigen fragment VLP libraries displaying peptides can be screened using, for example, a monoclonal antibody (mAb) known to have neutralizing activity for the target antigen. The selected VLPs display the epitope at high density. They can then be used directly to induce a mAb-like antibody response without the necessity of producing a synthetic version of the epitope for subsequent conjugation to an immunogenic carrier.</p>
+                <p>This is in contrast to the majority of existing epitope identification technologies, which do not support the presentation of peptides at the high densities required for potent immunogenicity.</p>
+                <h2>Agilvax Novel Vaccine and Immunotherapy Identification</h2>
+                <ul>
+                    <li>VLP library with random peptides uniquely inserted (platform)</li>
+                    <li>VLP selection via existing antibodies against different pathogens</li>
+                    <li>Rapid vaccine candidate identification</li>
+                </ul>
+
+            </div><!-- /containerNarrow -->
+        </div><!-- /MainContent -->
+       
+
+
+        <div id="footer">
+        </div><!-- /footer -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+
+        <!-- LoadIncludes -->
+        <script>
+            $( ".navLeft" ).load( "includes/nav.html" );
+            $( ".navRight" ).load( "includes/navRight.html" );
+            $( "#footer" ).load( "includes/footer.html" );
+        </script>
+        <script src="js/main.js"></script>
+        <script>
+            $(".adv1").animate({
+                opacity: 1
+            },250);
+            setTimeout( function(){ 
+                $(".adv2").animate({
+                    opacity: 1
+                },250);
+            },750 );
+            setTimeout( function(){ 
+                $(".adv3").animate({
+                    opacity: 1
+                },250);
+            },1500 );
+        </script>
+<script>
+
+</script>
+    </body>
+</html>
