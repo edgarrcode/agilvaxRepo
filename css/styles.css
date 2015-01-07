@@ -1621,6 +1621,18 @@ html[xmlns] .slides {
   .pageTitle h1 {
     color: #ffffff;
   }
+  .techAdv .pageTitle,
+  .techPlat .pageTitle,
+  .breastCancer .pageTitle,
+  .ovarianCancer .pageTitle,
+  .nhLymphoma .pageTitle,
+  .lungCancer .pageTitle,
+  .rsv .pageTitle,
+  .malaria .pageTitle,
+  .hpv .pageTitle,
+  .dengue .pageTitle {
+    background-image: url(../images/agilvaxHeaderBg2.jpg);
+  }
 }
 /*home Page Title*/
 @media (min-width: 991px) {

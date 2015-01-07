@@ -92,14 +92,6 @@ ol {
   width: 100%;
   margin-right: 0;
 }
-.header.mobileYes {
-  background-color: @blueHover;
-  padding: 4px 0;
-  img {
-    margin: 0 auto;
-    display: block;
-  }
-}
 /*Navigation*/
 .navigation .nav {
   .idNavDD {
@@ -107,6 +99,23 @@ ol {
   }
   li a.agilvaxHeaderLogo {
     padding: 6px 0;
+  }
+}
+.header.agilvaxLogoSmallScreen {
+  display: none;
+}
+@media (max-width: 989px) {
+  .navigation .nav li a.agilvaxHeaderLogo {
+    display: none;
+  }
+  .header.agilvaxLogoSmallScreen {
+    background-color: @blueHover;
+    display: block;
+    padding: 4px 0;
+    img {
+      margin: 0 auto;
+      display: block;
+    }
   }
 }
 /*home*/
@@ -259,6 +268,9 @@ ol {
   .ovarianCancer .greenCard {
       min-height: 314px;
   }
+  .breastCancer .greenCard {
+      min-height: 290px;
+  }
   .lungCancer .greenCard {
     min-height: 331px;
   }
@@ -374,25 +386,50 @@ ol {
     .connector {
       border-top: none;
       border-left: 1px solid @blueLight;
-      height: auto;
+      height: 50px;
       margin-left: 0;
       position: absolute;
-      left: 50px; top: 50px; bottom: 50px;
+      left: 46px; top: 150px;
       width: 1px;
     }
     .circle {
       float: left;
-      height: 100px;
+      height: 90px;
       margin: 20px 0 0;
-      width: 100px; 
+      width: 90px; 
       img {
         height: 80px;
         width: 80px;
+        margin-top: 5px;
       }
     }
     .tpDescription {
       margin: 50px 0 0 130px;
       text-align: left;
+    }
+    .selectionCircle {
+      left: 48px;
+      top: 72px;
+      height: 20px;
+      width: 20px;
+    }
+    .selectionConnector {
+      border-bottom: 1px solid @blueLight;
+      border-left: 0;
+      left: 70px;
+      top: 83px;
+      bottom: 45px;
+      height: auto;
+      width: 39px;
+      .selectionText {
+        .fontSmall;
+        transform: rotate(90deg);-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);
+        left: 67px;
+        top: 141px;
+      }
+    }
+    .vlpRandomPeptText {
+      margin-top: 30px;
     }
   }
 }
@@ -569,23 +606,38 @@ a.AgilvaxSolution:hover::before {
 }
 /*News*/
 .newsArticle {
+  border-bottom: 1px solid @gray;
   overflow: auto;
+  margin-top: 30px;
   h2 {
     margin-top: 0;
+    margin-bottom: 0;
     a {
       color: @blue;
     }
   }
+  .author {
+    margin: .5em 0;
+  }
   .date {
     font-style: italic;
+    margin: 0;
   }
   .pictureFrame {
     float: left;
-    margin-right: 20px;
+    margin-right: 4%;
+    width: 24%;
     img {
       display: block;
     }
   }
+  .excerpt {
+    float: left;
+    width: 70%;
+  }
+}
+.newsArticle:last-child {
+  border-bottom: none;
 }
 .newsSingle {
   .pageTitle {
@@ -594,6 +646,9 @@ a.AgilvaxSolution:hover::before {
       color: @blue;
       text-align: left;
     }
+  }
+  .newsArticle {
+    border-bottom: 0;
   }
 }
 
