@@ -634,6 +634,33 @@ a.AgilvaxSolution:hover::before {
 .newsSingle .newsArticle {
   border-bottom: 0;
 }
+/*Footer Form*/
+#footer .leftBorder {
+  border-left: 1px solid #56abb3;
+  padding-left: 10px;
+  min-height: 248px;
+}
+#footer h4,
+#footer p {
+  margin: 10px 0;
+}
+#footer input[type=text],
+#footer input[type=email] {
+  padding: 6px 2%;
+}
+@media (max-width: 767px) {
+  #footer .leftBorder {
+    border-left: 0;
+    border-top: 1px solid #56abb3;
+    padding-left: 0;
+    padding-top: 20px;
+    min-height: 0;
+  }
+  #footer .agilvaxLogoF {
+    text-align: center;
+    width: 180px;
+  }
+}
 .blueGradient {
   background: #036;
   /* Old browsers */

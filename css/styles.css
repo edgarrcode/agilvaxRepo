@@ -560,6 +560,7 @@ img {
 .btn {
   background-color: #eeeeee;
   border-radius: 20px;
+  border: none;
   display: inline-block;
   padding: 8px 20px;
   text-align: center;
@@ -579,28 +580,13 @@ img {
   background-color: #0f455f;
   color: #ffffff;
 }
-.blueBtn {
-  background: #036;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #0062c5 0%, #004890 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #0062c5), color-stop(100%, #004890));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #0062c5 0%, #004890 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #0062c5 0%, #004890 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #0062c5 0%, #004890 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, #0062c5 0%, #004890 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0062c5', endColorstr='#004890', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
+.aquaBtn {
   text-transform: uppercase;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: #56abb3;
   color: #ffffff;
 }
-.blueBtn:hover {
+.aquaBtn:hover {
   color: #ffffff;
   background: #082c41;
   text-decoration: none;
@@ -616,6 +602,10 @@ img {
   background-color: #eeeeee;
   color: #dddddd;
   text-decoration: none;
+}
+button.btn {
+  line-height: 24px;
+  height: 36px;
 }
 h2:target,
 h3:target,
@@ -1714,6 +1704,7 @@ html[xmlns] .slides {
   background-color: #0f455f;
   color: #ffffff;
   overflow: auto;
+  padding: 20px 0;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   #footer .vpbaLinksWrapper .vpbaLinksCol {
