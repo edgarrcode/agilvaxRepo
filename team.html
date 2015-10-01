@@ -33,7 +33,7 @@
 
         <div class="pageTitle">
             <div class="containerNarrow">
-                <h1 class="slideInBT">About Agilvax</h1>
+                <h1 class="slideInBT">Agilvax Team</h1>
             </div>
         </div><!-- /pageTitle -->
 
@@ -69,6 +69,18 @@
                         <a class="card AgilvaxSolution theTeam" id="constanceTrigger">
                             <h3 class="teamMemberName">Constance Dorian,</h3>
                             <p class="teamMemberTitle">Director of Technical Operations</p>
+                        </a>
+                    </div><!-- /oneFourth -->
+                    <div class="oneFourth">
+                        <a class="card AgilvaxSolution theTeam" id="oRourkeTrigger">
+                            <h3 class="teamMemberName">John P O’Rourke Jr.<i>PhD</i></h3>
+                            <p class="teamMemberTitle">Director of Platform Technology</p>
+                        </a>
+                    </div><!-- /oneFourth -->
+                    <div class="oneFourth">
+                        <a class="card AgilvaxSolution theTeam" id="gabrielaTrigger">
+                            <h3 class="teamMemberName">Gabriela Aguilar,</h3>
+                            <p class="teamMemberTitle">IR Coordinator/Executive Administrator</p>
                         </a>
                     </div><!-- /oneFourth -->
                 </div><!-- /breakColMobile -->
@@ -312,6 +324,31 @@
                 <div class="closeOL">X</div>
             </div><!-- /olContent -->
         </div><!-- /#doughOverlay -->
+        <div id="oRourkeOverlay" class="overlay">
+            <div class="olContent">
+                <h2 class="teamMemberName">John P O’Rourke Jr., <i>PhD</i></h2>
+                <p class="teamMemberTitle">Director of Platform Technology</p>
+                <hr>
+                <div class="scrollableContent">
+                    <p>Dr. John P O’Rourke Jr. is the Director of Platform Technology at Agilvax, Inc.  In this role he is contributing to the advancement the company’s cancer immunotherapy and vaccine pipeline. Dr. O’Rourke obtained his Bachelor of Science degree in Chemistry from Northern Illinois University and his Ph.D. from the Ohio State University.  He received postdoctoral training at Nationwide’s Children’s Research Institute in Columbus, OH and the University of New Mexico.  Dr. O’Rourke is currently enrolled in the Executive MBA program at the University of New Mexico’s Anderson School of Management.  Prior to joining Agilvax, Dr. O’Rourke was an Assistant Research Professor at the University of New Mexico School of Medicine.   </p>
+                    <p>Dr. O’Rourke has over 20 years’ experience in the development and application of molecular and cell biology techniques to fundamental problems in oncology.  He joined Agilvax from the University of New Mexico where his most recent research was in the development and application of virus-like-particle (VLP) affinity selection for the development of novel vaccines and adjuvant.  Dr. O’Rourke has published multiple articles on cancer biology and VLP vaccine development in high impact journals.</p>
+                </div><!-- /scrollableContent -->
+                <div class="closeOL">X</div>
+            </div><!-- /olContent -->
+        </div><!-- /#doughOverlay -->
+        <div id="gabrielaOverlay" class="overlay">
+            <div class="olContent">
+                <h2 class="teamMemberName">Gabriela Aguilar</h2>
+                <p class="teamMemberTitle">Investor Relations Coordinator/Executive Administrator</p>
+                <hr>
+                <div class="scrollableContent">
+                    <p>Gabriela Aguilar is the Investor Relations Coordinator/Executive Administrator for Agilvax, Inc.</p>
+                    <p>For the past fifteen years, Gabriela has been working in both the Academic and Industry sectors. She has gained experience in logistics, purchasing, management, marketing and overall Administration duties working for Expeditors International (Freight Forwarder), Cardinal Health, Inc, and the University of Texas at El Paso.</p>
+                    <p>Gabriela graduated with a Bachelor’s Degree in Business Administration with a major in Marketing and a minor in Logistics from New Mexico State University.</p>
+                </div><!-- /scrollableContent -->
+                <div class="closeOL">X</div>
+            </div><!-- /olContent -->
+        </div><!-- /#doughOverlay -->
 
 
         <div id="footer">
@@ -362,6 +399,12 @@ $('#frankTrigger').click(function () {
 });
 $('#dougTrigger').click(function () {
     $('#dougOverlay').addClass('active');
+});
+$('#oRourkeTrigger').click(function () {
+    $('#oRourkeOverlay').addClass('active');
+});
+$('#gabrielaTrigger').click(function () {
+    $('#gabrielaOverlay').addClass('active');
 });
 
 // close overlay
