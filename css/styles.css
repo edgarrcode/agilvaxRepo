@@ -1642,16 +1642,18 @@ html[xmlns] .slides {
   .home .pageTitle {
     background: url(../images/homeBg.jpg) no-repeat center top fixed;
     background-size: 100% auto;
-    padding: 60px 0;
+    padding: 110px 0;
   }
   .home .pageTitle h1 {
     font-size: 24px;
     color: #ffffff;
     line-height: 1.2;
   }
+  .home .pageTitle p {
+    color: #ffffff;
+  }
 }
 .home .pageTitle {
-  color: #ffffff;
   font-weight: 200;
   overflow: hidden;
 }

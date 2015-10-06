@@ -137,6 +137,11 @@ ol li {
 .home .hl .greenCard h3 a {
   color: #0f455f;
 }
+@media (max-width: 767px) {
+  .home .hl .greenCard {
+    min-height: 0;
+  }
+}
 .agilvaxDownladFactSheetWrapper {
   text-align: center;
   background-color: #0f455f;
