@@ -337,12 +337,6 @@ table {
   margin-bottom: 16px;
   position: relative;
 }
-.card h3 {
-  font-size: 16px;
-}
-.card h3 a {
-  color: #0f455f;
-}
 .lt-ie9 .card,
 .lt-ie8 .card {
   border: 1px solid #dddddd;
@@ -1648,7 +1642,7 @@ html[xmlns] .slides {
   .home .pageTitle {
     background: url(../images/homeBg.jpg) no-repeat center top fixed;
     background-size: 100% auto;
-    padding: 110px 0;
+    padding: 60px 0;
   }
   .home .pageTitle h1 {
     font-size: 24px;
@@ -1658,6 +1652,7 @@ html[xmlns] .slides {
 }
 .home .pageTitle {
   color: #ffffff;
+  font-weight: 200;
   overflow: hidden;
 }
 .home .pageTitle .pictureFrame {
