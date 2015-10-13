@@ -337,12 +337,6 @@ table {
   margin-bottom: 16px;
   position: relative;
 }
-.card h3 {
-  font-size: 16px;
-}
-.card h3 a {
-  color: #0f455f;
-}
 .lt-ie9 .card,
 .lt-ie8 .card {
   border: 1px solid #dddddd;
@@ -1655,9 +1649,12 @@ html[xmlns] .slides {
     color: #ffffff;
     line-height: 1.2;
   }
+  .home .pageTitle p {
+    color: #ffffff;
+  }
 }
 .home .pageTitle {
-  color: #ffffff;
+  font-weight: 200;
   overflow: hidden;
 }
 .home .pageTitle .pictureFrame {

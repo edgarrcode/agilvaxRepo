@@ -140,11 +140,43 @@ ol {
   .date {
     font-style: italic;
   }
+  .hl .greenCard {
+    .left;
+    font-size: 14px;
+    min-height: 240px;
+    h3 {
+      font-size: 16px;
+      a {
+        color: @blue;
+      }
+    }
+
+  }
+}
+@media(max-width:767px) {
+  .home .hl .greenCard {
+    min-height: 0;
+  }
 }
 .agilvaxDownladFactSheetWrapper {
+  .center;
   background-color: @blue;
+  margin-top: 1em;
+  padding-top: 20px;
   img {
     display: block;
+  }
+  .btn {
+    .transition;
+    background-color: transparent;
+    border: 1px solid @white;
+    color: @white;
+    margin: 35px 0;
+  }
+}
+.greenCard.AgilvaxSolution.adfs:hover {
+  .btn {
+    padding: 8px 28px;
   }
 }
 /*-------- Agilvax Circles*/
@@ -465,7 +497,7 @@ ol {
   top: 0;
   width: 50%;
 }
-a.AgilvaxSolution:hover::before {
+.AgilvaxSolution:hover::before {
   width: 100%;
 }
 /*About Page*/
@@ -767,13 +799,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062c5', end
   position: relative;
   .card {
     color: @blue;
-    font-size: 14px;
     display: block;
     overflow: auto;
     padding: 10px 10px 0 10px;
     position: relative;
     text-decoration: none;
-    min-height: 340px;
+    min-height: 280px;
   }
   .hlIcon {
     text-align: center;

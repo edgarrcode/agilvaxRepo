@@ -126,11 +126,40 @@ ol li {
 .home .date {
   font-style: italic;
 }
+.home .hl .greenCard {
+  text-align: left;
+  font-size: 14px;
+  min-height: 240px;
+}
+.home .hl .greenCard h3 {
+  font-size: 16px;
+}
+.home .hl .greenCard h3 a {
+  color: #0f455f;
+}
+@media (max-width: 767px) {
+  .home .hl .greenCard {
+    min-height: 0;
+  }
+}
 .agilvaxDownladFactSheetWrapper {
+  text-align: center;
   background-color: #0f455f;
+  margin-top: 1em;
+  padding-top: 20px;
 }
 .agilvaxDownladFactSheetWrapper img {
   display: block;
+}
+.agilvaxDownladFactSheetWrapper .btn {
+  transition: all ease-in 150ms;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin: 35px 0;
+}
+.greenCard.AgilvaxSolution.adfs:hover .btn {
+  padding: 8px 28px;
 }
 /*-------- Agilvax Circles*/
 .circle {
@@ -449,7 +478,7 @@ ol li {
   top: 0;
   width: 50%;
 }
-a.AgilvaxSolution:hover::before {
+.AgilvaxSolution:hover::before {
   width: 100%;
 }
 /*About Page*/
@@ -738,13 +767,12 @@ a.AgilvaxSolution:hover::before {
 }
 .hl .card {
   color: #0f455f;
-  font-size: 14px;
   display: block;
   overflow: auto;
   padding: 10px 10px 0 10px;
   position: relative;
   text-decoration: none;
-  min-height: 340px;
+  min-height: 280px;
 }
 .hl .hlIcon {
   text-align: center;
