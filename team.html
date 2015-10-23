@@ -78,11 +78,17 @@
                         </a>
                     </div><!-- /oneFourth -->
                     <div class="oneFourth">
+                        <a class="card AgilvaxSolution theTeam" id="jayneTrigger">
+                            <h3 class="teamMemberName">Jayne Christen</h3>
+                            <p class="teamMemberTitle">Director of Infectious Disease</p>
+                        </a>
+                    </div><!-- /oneFourth -->
+                    <div class="oneFourth gridLast">
                         <a class="card AgilvaxSolution theTeam" id="gabrielaTrigger">
                             <h3 class="teamMemberName">Gabriela Aguilar,</h3>
                             <p class="teamMemberTitle">IR Coordinator/Executive Administrator</p>
                         </a>
-                    </div><!-- /oneFourth -->
+                    </div><!-- /oneFourth gridLast -->
                 </div><!-- /breakColMobile -->
                 
                 <div class="clear"></div>
@@ -336,6 +342,19 @@
                 <div class="closeOL">X</div>
             </div><!-- /olContent -->
         </div><!-- /#doughOverlay -->
+        <div id="jayneOverlay" class="overlay">
+            <div class="olContent">
+                <h2 class="teamMemberName">Jayne Christen</h2>
+                <p class="teamMemberTitle">Director of Infectious Disease</p>
+                <hr>
+                <div class="scrollableContent">
+                    <p>Dr. Jayne Christen is the Director of Infectious Disease at Agilvax. In this role she is the lead scientist advancing VLP vaccine candidates displaying epitope mimics of ebolavirus, dengue virus, and rabies. Dr. Christen is also spearheading efforts to expand Agilvax’s vaccine pipeline.</p>
+                    <p>Dr. Christen earned her Bachelor of Science degree in Secondary Education, Master of Science degree in Entomology, and PhD in Biochemistry from Kansas State University. She received dual training in teaching and research as an Academic Science Education and Research Training (ASERT) Post-Doctoral Scholar at the University of New Mexico.  </p>
+                    <p>During her post-doctoral fellowship at the University of New Mexico, she worked on the development and optimization of bacteriophage protein scaffolds as a cornerstone for vaccine development. Dr. Christen has developed and characterized MS2 VLPs displaying N-terminal random peptide libraries for epitope discovery, conducted affinity selections on monoclonal antibodies against a variety of pathogens, and identified mutations in the MS2 coat protein leading to enhanced VLP stability. Her projects at Agilvax utilize her educational foundations and research skills in biochemistry and molecular biology with extensions into chemistry, immunology, virology, and host-pathogen interactions. </p>
+                </div><!-- /scrollableContent -->
+                <div class="closeOL">X</div>
+            </div><!-- /olContent -->
+        </div><!-- /#gabrielaOverlay -->
         <div id="gabrielaOverlay" class="overlay">
             <div class="olContent">
                 <h2 class="teamMemberName">Gabriela Aguilar</h2>
@@ -405,6 +424,9 @@ $('#oRourkeTrigger').click(function () {
 });
 $('#gabrielaTrigger').click(function () {
     $('#gabrielaOverlay').addClass('active');
+});
+$('#jayneTrigger').click(function () {
+    $('#jayneOverlay').addClass('active');
 });
 
 // close overlay
