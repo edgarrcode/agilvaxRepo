@@ -502,6 +502,7 @@ ol li {
 }
 .team .teamMemberTitle {
   margin-top: 0;
+  font-size: 14px;
 }
 .team .AgilvaxSolution {
   margin-top: 0;
@@ -524,7 +525,7 @@ ol li {
   left: 0;
   right: 0;
   overflow: hidden;
-  z-index: 2;
+  z-index: 5;
 }
 .team .overlay .olContent {
   background-color: #ffffff;
@@ -1078,4 +1079,21 @@ ol li {
     width: 100%;
     margin-right: 0;
   }
+}
+/*flexBoxTest*/
+.flexBoxWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flexBoxWrapper .flexBoxItem {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flexBoxWrapper .card {
+  width: 100%;
 }
