@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/customStyles.css">
     </head>
-    <body class="about">
+    <body class="team">
         <div id="header">
             <div class="header agilvaxLogoSmallScreen center">
                 <a href="index.html"><img src="images/agilvaxHeaderLogo.png" alt="Agilvax" title="Agilvax" width="135"></a>
@@ -53,22 +53,17 @@
     <tbody>
         <tr>
             <td>Infectious Disease</td>
-            <td><b>HPV (AX03)</b></td>
+            <td><b><a id="AX03-Trigger" class="pointer">HPV (AX03)</a></b></td>
             <td colspan="4"><div class="progressBar"><span class="widthZero" id="hpvPB"></span></div></td>
         </tr>
         <tr>
             <td>Infectious Disease</td>
-            <td><b>RSV (AX14)</b></td>
+            <td><b><a id="AX14-Trigger" class="pointer">RSV (AX14)</a></b></td>
             <td colspan="4"><div class="progressBar"><span class="widthZero" id="rsvPB"></span></div></td>
         </tr>
         <tr>
-            <td>Infectious Disease</td>
-            <td><b>Malaria (AX05)</b></td>
-            <td colspan="4"><div class="progressBar"><span class="widthZero" id="malariaPB"></span></div></td>
-        </tr>
-        <tr>
             <td>Oncology</td>
-            <td><b>Breast Cancer (AX09)</b></td>
+            <td><b><a id="AX09-Trigger" class="pointer" class="">Breast Cancer (AX09)</a></b></td>
             <td colspan="4"><div class="progressBar"><span class="widthZero" id="breastCancerPB"></span></div></td>
         </tr>
     </tbody>
@@ -86,6 +81,59 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
         <script src="js/plugins.js"></script>
+
+<!-- Overlays -->
+<div id="AX09-Overlay" class="overlay">
+    <div class="olContent">
+        <h2 class="teamMemberName">AX09</h2>
+        <hr>
+        <div class="scrollableContent">
+            <p>AX09 is designed to be a potential stand-alone therapy or used in combination with conventional and emerging treatments for TNBC. AX09 targets a protein found in a high percentage of breast cancers including TNBC and whose expression is predictive of poor outcomes.  This protein is found on nearly all solid tumor cancer stem cells including breast cancer.  Studies show that immunization with AX09 significantly inhibits cancer spread in animal models of TNBC.</p>
+        </div><!-- /scrollableContent -->
+        <div class="closeOL">X</div>
+    </div><!-- /olContent -->
+</div><!-- /#AX09 -->
+<div id="AX14-Overlay" class="overlay">
+    <div class="olContent">
+        <h2 class="teamMemberName">AX14</h2>
+        <hr>
+        <div class="scrollableContent">
+            <p>AX14 targets the pre-fusion F-protein and was identified by VLP affinity selection. Mice immunized with AX14 generated an immune response that significantly neutralized RSV infection in vitro. VLP formulation and immunization schedule are being optimized and further in vivo testing is underway.</p>
+        </div><!-- /scrollableContent -->
+        <div class="closeOL">X</div>
+    </div><!-- /olContent -->
+</div><!-- /#AX14 -->
+<div id="AX03-Overlay" class="overlay">
+    <div class="olContent">
+        <h2 class="teamMemberName">AX03</h2>
+        <hr>
+        <div class="scrollableContent">
+            <p>AX03 still in Manufacturing and Toxicology – nearing completion of the process development in preparation for manufacturing and toxicology studies.</p>
+        </div><!-- /scrollableContent -->
+        <div class="closeOL">X</div>
+    </div><!-- /olContent -->
+</div><!-- /#AX03 -->
+
+<script>
+    // Triggers
+    $('#AX09-Trigger').click(function () {
+        $('#AX09-Overlay').addClass('active');
+    });
+    $('#AX14-Trigger').click(function () {
+        $('#AX14-Overlay').addClass('active');
+    });
+    $('#AX03-Trigger').click(function () {
+        $('#AX03-Overlay').addClass('active');
+    });
+
+    // close overlay
+    $('.closeOL').click(function () {
+        $('.overlay.active').removeClass('active');
+    });
+    $('.overlay').click(function () {
+        $(this).removeClass('active');
+    });
+</script>
 
         <!-- LoadIncludes -->
         <script>

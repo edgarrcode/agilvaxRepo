@@ -80,6 +80,9 @@ ol li {
   width: 100%;
   margin-right: 0;
 }
+.pointer {
+  cursor: pointer;
+}
 /*Navigation*/
 .navigation .nav .idNavDD {
   min-width: 180px;
