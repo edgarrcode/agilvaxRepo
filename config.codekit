@@ -131,6 +131,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cscTargeting.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139153,
+		"inputAbbreviatedPath": "\/images\/cscTargeting.png",
+		"outputAbbreviatedPath": "\/images\/cscTargeting.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/homeBg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -582,6 +593,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/n-Agilvax-Receives-New-Patent-for-its-Cost-Effective-Broadly-Protective-HPV-Vaccine-Candidate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/n-Agilvax-Receives-New-Patent-for-its-Cost-Effective-Broadly-Protective-HPV-Vaccine-Candidate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/n-Notice-of-Allowance-for-US-and-European-Patents.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -740,6 +760,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/techPlatform.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tripleBreastCancer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tripleBreastCancer.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
